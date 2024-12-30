@@ -409,7 +409,7 @@ const LayoutTagIndex = props => {
     <div className='mt-8'>
       <Card className='w-full'>
         <div className='dark:text-gray-200 mb-5 ml-4'>
-          <i className='fas fa-tag' /> {locale.COMMON.TAGS}:
+          <i className='fas fa-tags' /> {locale.COMMON.TAGS}:
         </div>
         <div id='tags-list' className='duration-200 flex flex-wrap ml-8'>
           {tagOptions.map(tag => (
