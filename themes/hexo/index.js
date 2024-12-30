@@ -385,7 +385,7 @@ const LayoutCategoryIndex = props => {
                   className={
                     ' duration-300 dark:hover:text-white px-5 cursor-pointer py-2 hover:text-indigo-400'
                   }>
-                  <i className='mr-4 fas fa-folder' /> {category.name}(
+                  <i className='fa-solid fa-folder-open' /> {category.name}(
                   {category.count})
                 </div>
               </Link>
