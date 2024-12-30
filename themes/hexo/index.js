@@ -371,7 +371,7 @@ const LayoutCategoryIndex = props => {
     <div className='mt-8'>
       <Card className='w-full min-h-screen'>
         <div className='dark:text-gray-200 mb-5 mx-3'>
-          <i className='mr-4 fas fa-folder-open' /> {locale.COMMON.CATEGORY}:
+          <i className='fa-solid fa-folder-open' /> {locale.COMMON.CATEGORY}:
         </div>
         <div id='category-list' className='duration-200 flex flex-wrap mx-8'>
           {categoryOptions?.map(category => {
@@ -385,7 +385,7 @@ const LayoutCategoryIndex = props => {
                   className={
                     ' duration-300 dark:hover:text-white px-5 cursor-pointer py-2 hover:text-indigo-400'
                   }>
-                  <i className='mr-4 fas fa-folder-open' /> {category.name}(
+                  <i className='fa-solid fa-folder-open' /> {category.name}(
                   {category.count})
                 </div>
               </Link>
@@ -409,7 +409,7 @@ const LayoutTagIndex = props => {
     <div className='mt-8'>
       <Card className='w-full'>
         <div className='dark:text-gray-200 mb-5 ml-4'>
-          <i className='mr-4 fas fa-tags' /> {locale.COMMON.TAGS}:
+          <i className='fas fa-tags' /> {locale.COMMON.TAGS}:
         </div>
         <div id='tags-list' className='duration-200 flex flex-wrap ml-8'>
           {tagOptions.map(tag => (
